@@ -3,3 +3,5 @@ shoplist
 2/network vip
 3/bite 
 4/watch
+5/ant
+6/my wife's cloth
