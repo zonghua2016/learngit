@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <a id="goto" href="#" data-src="http://k.360kan.com/pc/detail/jL86aMYko62d">跳转链接</a>
+
+    <iframe id="appInfoIframeContent" style="width: 1500px;height: 1000px;" frameborder="0" security="restricted" sandbox="allow-same-origin allow-scripts"></iframe>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script>
+    $(function () {
+        $('#goto').click(function () {
+            $('#appInfoIframeContent').attr('src', $(this).data('src'))
+            // var script = document.createElement("script");
+            // script.type = "text/javascript";
+            // script.appendChild(document.createTextNode(
+            //     "if (top.location != self.location){top.location.href=self.location.href;}"));
+            // $('#appInfoIframeContent').appendChild(script);
+        })
+
+    })
+</script>
+</html>
