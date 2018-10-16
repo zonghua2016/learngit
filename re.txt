@@ -1,3 +1,3 @@
 1/ merge提交
-2、per 提交
+2、per 提交 commit --amend
 2、son 提交
