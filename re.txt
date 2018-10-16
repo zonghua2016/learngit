@@ -1,7 +1,1 @@
-1、hello
-2/work
-3/target
-4、continue loading
-5、loading over
-6/test revert
-7/test angin
+1、
